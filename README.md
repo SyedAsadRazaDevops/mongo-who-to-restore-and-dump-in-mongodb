@@ -47,7 +47,9 @@ mongoexport -u admin -p 'password' --authenticationDatabase -d mydbname -c mycol
 
 _________________________________________________________________________________________
 link: https://stackoverflow.com/questions/11255630/how-to-export-all-collections-in-mongodb
+
 link: https://www.mongodb.com/docs/compass/current/import-export/
+
 link: https://jelastic.com/blog/remote-access-to-mongodb-in-jelastic-data-import-export/
 
 
