@@ -1,18 +1,18 @@
 # mongo-who-to-restore-and-dump-in-mongodb
 
-# 1**create dump**
+# 1-**create dump**
 ```
 sudo mongodump --db lab_inventory
 ```
-# 2**convert into  tar**
+# 2-**convert into  tar**
 ```
 sudo tar –czvf myfolder.tar.gz $home/project/
 ```
-# 3**extract zip**
+# 3-**extract zip**
 ```
 tar -xf myfolder.tar.gz
 ```
-# 4**delete databaase in mongo**
+# 4-**delete databaase in mongo**
 to onpen mongo terminal/shell
 ```
 mongo
@@ -31,15 +31,15 @@ db.dropDatabase()
 ```
 QUIT from mongo shell
 
-# 5**to restore/replace your db to running db**
+# 5-**to restore/replace your db to running db**
 ```
 sudo mongorestore --db mydbname --verbose ./usr/local/src/dbackups/mydbdump
 ```
-# 6**to restore/replace your db to runing db with passing user name and password**
+# 6-**to restore/replace your db to runing db with passing user name and password**
 ```
 sudo mongorestore --port 27017 -u admin -p 'password' --authenticationDatabase admin -d mydbname --verbose ./usr/local/mydbdump
 ```
-# 7**How to export all collections in MongoDB**
+# 7-**How to export all collections in MongoDB**
 ```
 mongoexport -u admin -p 'password' --authenticationDatabase -d mydbname -c mycollection -o mybackup.json
 ```
