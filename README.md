@@ -46,10 +46,14 @@ mongoexport -u admin -p 'password' --authenticationDatabase -d mydbname -c mycol
 
 
 _________________________________________________________________________________________
+link: https://jelastic.medium.com/mongodb-replica-set-auto-%D1%81lustering-for-high-availability-and-performance-d7e8983882fa
+
 link: https://stackoverflow.com/questions/11255630/how-to-export-all-collections-in-mongodb
 
 link: https://www.mongodb.com/docs/compass/current/import-export/
 
 link: https://jelastic.com/blog/remote-access-to-mongodb-in-jelastic-data-import-export/
+
+link: https://github.com/mongo-express/mongo-express
 
 
